@@ -1,0 +1,59 @@
+.about-page {
+  width: 350px;
+  margin: 60px auto;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: #faf9ff;
+  box-shadow: 7px 7px 15px #c8c3e5, -7px -7px 15px #ffffff;
+  font-family: "Poppins", sans-serif;
+  color: #3a3a7a;
+  text-align: center;
+}
+
+.about-page h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #2e2e3a;
+}
+
+.about-page h2 {
+  font-size: 18px;
+  margin: 20px 0 10px;
+  color: #3a3a7a;
+}
+
+.about-page p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.about-page ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align:left;
+}
+
+.about-page ul li {
+  background-color: #faf9ff;
+  margin-bottom: 12px;
+  padding: 15px 16px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: inset 3px 3px 6px #d1cde7, inset -3px -3px 6px #ffffff;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  
+ 
+}
+
+.about-page ul li::before {
+  content: "✔";
+  color: #6a5acd;
+  font-weight: bold;
+  
+}

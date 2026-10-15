@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  background-color: #ece9f9;
+  font-family: "Poppins", sans-serif;
+}
+
+.todo-container {
+  width: 350px;
+  margin: 60px auto;
+  text-align: center;
+  box-shadow: 6px 6px 12px #c8c3e5, -6px -6px 12px #ffffff;
+  border-radius: 12px;
+
+}
+
+h1 {
+  margin: 0 0 15px;
+  color: #3a3a7a;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: #9a94b8;
+  font-weight: normal;
+}
+
+/* Input section */
+.input-section {
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #faf9ff;
+  box-shadow: 6px 6px 12px #c8c3e5, -6px -6px 12px #ffffff;
+  text-align: center;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-wrapper input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #faf9ff;
+  box-shadow: inset 3px 3px 6px #d1cde7, inset -3px -3px 6px #ffffff;
+  color: #3a3a7a;
+  font-size: 16px;
+  font-weight: bold; /* ✅ typing text is bold */
+}
+
+.add-btn {
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background-color: #faf9ff;
+  color: #3a3a7a;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  box-shadow: 5px 5px 10px #c8c3e5, -5px -5px 10px #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.add-btn:hover {
+  box-shadow: inset 3px 3px 6px #c8c3e5, inset -3px -3px 6px #ffffff;
+}
+
+/* List styling */
+ul {
+  padding: 0;
+  margin: 20px 0 0;
+  text-align: left;
+}
+
+ul li {
+  display: flex;
+  list-style: none;
+  background-color: #faf9ff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  align-items: center;
+  color: #3a3a7a;
+  box-shadow: 5px 5px 10px #c8c3e5, -5px -5px 10px #ffffff;
+  font-weight: bold;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Task text */
+.task-text {
+  flex: 1;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #7d7d7d;
+}
+
+/* Action icons */
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.actions i {
+  color: #3a3a7a;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   width: 35px;
+  height: 30px;
+  border: none;
+}
+
+.actions i:hover {
+  box-shadow: inset 3px 3px 6px #c8c3e5, inset -3px -3px 6px #ffffff;
+}
+ul li i {
+  transition: all 0.2s ease-in-out;
+  width: 50px;
+  height: 30px;
+  border: none;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px #c8c3e5, -5px -5px 10px #ffffff;
+}
